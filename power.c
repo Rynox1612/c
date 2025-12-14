@@ -4,7 +4,7 @@ int expon(int base, int power) {
         return base * expon(base, power - 1);
     }
     else {
-        return 1;
+        return base;
     }
 }
 
