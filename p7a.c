@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int readArray(int *arr, int size){
+    printf("Enter elements of array: ");
     for(int i=0;i<size;i++){
-        printf("Enter element %d: ", i+1);
         scanf("%d",&arr[i]);
     }
 }
